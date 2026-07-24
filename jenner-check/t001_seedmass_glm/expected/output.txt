@@ -1,0 +1,37 @@
+
+  Obs  spec  seedmass
+-----  ----  --------
+    1  BECO    0.3289
+    2  BEAL    1.0101
+    3  SOAM    2.8571
+    4  PIRU    3.3333
+    5  ABBA    7.6923
+    6  ACSA    64.616
+
+  Obs  SPEC  SEEDMASS  SEEDMASS_C
+-----  ----  --------  ----------
+    1  ABBA    7.6923  7.6923
+    2  ACSA    64.616  64.616
+    3  BEAL    1.0101  1.0101
+    4  BECO    0.3289  0.3289
+    5  PIRU    3.3333  3.3333
+    6  SOAM    2.8571  2.8571
+
+                         The GLM Procedure                         
+                  Dependent Variable: ave_chesson                  
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+SEEDMASS         1         0.04660      0.04660      5.53    0.0785
+Error            4         0.03373      0.00843                    
+
+Root MSE           0.09183    R-Square            0.5801
+Adj R-Sq            0.4751
+
+                   Parameter Estimates                   
+
+Parameter    Estimate  Standard Error   t Value  Pr > |t|
+-----------  --------  --------------  --------  --------
+(Intercept)   0.59750         0.04328     13.81    0.0002
+SEEDMASS     -0.00382         0.00163     -2.35    0.0785
+

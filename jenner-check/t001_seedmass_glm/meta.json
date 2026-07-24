@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_seedmass_glm",
+  "source_file": "seedpref-and-substrate.sas",
+  "source_blob_sha": "cdcebfa8fdbf41a6c0a7f44e501805397666bcf0",
+  "source_commit": "27d2b9940068395eb3e5065a8906a52419c33de6",
+  "notes": "Figure 6 slice: the verbatim seedmass DATALINES block (6 tree species x seed mass in mg), the put()/best8. reformat, and PROC GLM regressing ave_chesson on seedmass with /solution. AVELM (mean Chesson's index per species, derived upstream from the Segment/Transect field libraries) is supplied as a 6-row mock so the merge+regression run standalone; the seedmass data and the GLM/PRINT statements are unchanged from the author."
+}

@@ -1,0 +1,72 @@
+                                                     ABBA at '1_L'
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+SUB     Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+LITT            9     18.00            9        18.00
+MSS            41     82.00           50       100.00
+
+Chi-Square Test
+for Specified Proportions
+
+SUB                   Frequency Test Percent     Expected
+--------------------------------------------------------
+LITT                          9        90.90        45.45
+MSS                          41         9.10         4.55
+--------------------------------------------------------
+
+Chi-Square                         321.2327
+DF                                        1
+Pr > ChiSq                           0.0000
+
+WARNING: 50% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+                                                     ACSA at '1_L'
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+SUB     Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+LITT           12     26.67           12        26.67
+MSS            33     73.33           45       100.00
+
+Chi-Square Test
+for Specified Proportions
+
+SUB                   Frequency Test Percent     Expected
+--------------------------------------------------------
+LITT                         12        90.90        40.91
+MSS                          33         9.10         4.09
+--------------------------------------------------------
+
+Chi-Square                         224.4544
+DF                                        1
+Pr > ChiSq                           0.0000
+
+WARNING: 50% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+                                                     PIRU at '1_L'
+
+                                                   The FREQ Procedure
+
+                                  Cumulative    Cumulative
+SUB     Frequency    Percent     Frequency      Percent
+-------------------------------------------------------------
+LITT            7     20.00            7        20.00
+MSS            28     80.00           35       100.00
+
+Chi-Square Test
+for Specified Proportions
+
+SUB                   Frequency Test Percent     Expected
+--------------------------------------------------------
+LITT                          7        90.90        31.82
+MSS                          28         9.10         3.19
+--------------------------------------------------------
+
+Chi-Square                         212.6940
+DF                                        1
+Pr > ChiSq                           0.0000
+
+WARNING: 50% of the cells have expected counts less than 5. Chi-Square may not be a valid test.

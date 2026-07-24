@@ -1,0 +1,61 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA avelm
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote avelm (6 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA seedmass
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote seedmass (6 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=SEEDMASS
+
+NOTE: PROC PRINT completed: 6 observations printed, 2 variables
+NOTE: DATA SEEDMASS
+
+
+NOTE: Read 6 rows from SEEDMASS.
+NOTE: Wrote SEEDMASS (6 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=
+
+NOTE: Read 6 rows from .
+NOTE: Wrote  (6 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=SEEDMASS
+
+NOTE: PROC PRINT completed: 6 observations printed, 3 variables
+NOTE: DATA FIG6
+
+NOTE: Stream 1 processed 6 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 6 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote FIG6 (6 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=
+
+NOTE: Read 6 rows from .
+NOTE: Wrote  (6 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC GLM data=fig6
+
+NOTE: OUTPUT dataset written to: /tmp/work/r_1c398a62066340c6a3e8bb8b64030b9b/work/5328ff5a-f2f8-43e1-b8da-159100c10529/fig6_fitted.avro
+NOTE: ODS plot written: glm_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: glm_residual_histogram_panel.spec.json
+NOTE: ODS plot written: glm_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: glm_qq_plot.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
