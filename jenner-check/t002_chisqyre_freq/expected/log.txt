@@ -1,0 +1,85 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA seedall
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote seedall (6 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA abba
+
+
+NOTE: Read 6 rows from seedall.
+NOTE: Wrote abba (2 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA acsa
+
+
+NOTE: Read 6 rows from seedall.
+NOTE: Wrote acsa (2 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA piru
+
+
+NOTE: Read 6 rows from seedall.
+NOTE: Wrote piru (2 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA ABL
+
+
+NOTE: Read 2 rows from ABBA.
+NOTE: Wrote ABL (2 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=
+
+NOTE: Read 2 rows from .
+NOTE: Wrote  (2 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: Option TITLE changed to ABBA at '1_L'.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_sub.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA ACL
+
+
+NOTE: Read 2 rows from ACSA.
+NOTE: Wrote ACL (2 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=
+
+NOTE: Read 2 rows from .
+NOTE: Wrote  (2 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: Option TITLE changed to ACSA at '1_L'.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_sub.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA PIL
+
+
+NOTE: Read 2 rows from PIRU.
+NOTE: Wrote PIL (2 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=
+
+NOTE: Read 2 rows from .
+NOTE: Wrote  (2 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: Option TITLE changed to PIRU at '1_L'.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_sub.spec.json
+NOTE: PROC FREQ statement used.

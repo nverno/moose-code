@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-24T05:39:08Z",
+  "_captured_run_id": "r_4587b95abd664152a6413ffd406deb29",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote quadsub (6 rows, 14 columns).",
+    "NOTE: Wrote subelevpool (3 rows, 15 columns).",
+    "NOTE: Wrote subelevpool_N (3 rows, 17 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 17 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

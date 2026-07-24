@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_chisqyre_freq",
+  "source_file": "seedpref-and-substrate.sas",
+  "source_blob_sha": "cdcebfa8fdbf41a6c0a7f44e501805397666bcf0",
+  "source_commit": "27d2b9940068395eb3e5065a8906a52419c33de6",
+  "notes": "Chi-square goodness-of-fit slice: the author's per-species DATA subsets (abba/acsa/piru from seedall) and %chisqyre macro (PROC FREQ table sub /testp=(...) chisq, weight mpctcnt), invoked with the author's own low-elevation argument sets. SEEDALL supplied as a 6-row mock matching (spec, elevcl, sub, mpctcnt). TESTP proportion list written blank-separated, the equivalent documented form. Produces 3 chi-square tests (ABBA/ACSA/PIRU at 1_L)."
+}

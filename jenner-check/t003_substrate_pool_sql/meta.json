@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_substrate_pool_sql",
+  "source_file": "seedpref-and-substrate.sas",
+  "source_blob_sha": "cdcebfa8fdbf41a6c0a7f44e501805397666bcf0",
+  "source_commit": "27d2b9940068395eb3e5065a8906a52419c33de6",
+  "notes": "Substrate-coverage slice: the author's verbatim two-level PROC SQL aggregation (SUBELEV = mean(cover)/100 by cens+elevcl, SUBELEVPOOL = pooled means by elevcl) plus the nmss/nlitt and nlitd/nlitc normalisation DATA steps. QUADSUB supplied as a 6-row mock matching the 14 cover columns the SQL reads. A trailing PROC PRINT surfaces the pooled result."
+}

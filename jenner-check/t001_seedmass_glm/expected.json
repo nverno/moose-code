@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-24T05:34:10Z",
+  "_captured_run_id": "r_1c398a62066340c6a3e8bb8b64030b9b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote seedmass (6 rows, 2 columns).",
+    "NOTE: PROC PRINT completed: 6 observations printed, 3 variables",
+    "NOTE: Wrote FIG6 (6 rows, 4 columns).",
+    "NOTE: PROC GLM ODS Graphics generated.",
+    "NOTE: PROC GLM statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
